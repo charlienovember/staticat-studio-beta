@@ -2,6 +2,45 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Staticat Studio Pro</title>
+    <link>https://charlienovember.github.io/staticat-studio-beta/appcast.xml</link>
     <language>en</language>
+    <item>
+      <title>0.9-beta5</title>
+      <pubDate>Mon, 23 Nov 2026 18:50:46 +0000</pubDate>
+      <sparkle:version>55</sparkle:version>
+      <sparkle:shortVersionString>0.9-beta5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown" xml:lang="en"><![CDATA[New in this build:
+
+- **Prepare Episode**: once you finish recording or import a final cut, the app prepares the episode by itself. It transcribes it, refines the transcript, finds the voices and, when there is video, the faces and the moments. A dialog shows each step and can go to the background. **Prepare Episode**, on the Transcript and Moments pages and in the Episode menu, does whatever is missing or out of date. **Settings › Processing** chooses which steps run.
+- **Episode menu**: Play, the camera switches, Recording Mode, Finish Recording and Prepare Episode are together in a new Episode menu. Format now comes after Edit, and menu items have icons.
+- **Phones** can be renamed on the Mac: **Rename…** in **Shows › Cameras**. When two phones have the same name, the second one is numbered.
+- **People**: a voice with nobody on camera can be given a face from its card in the People sheet.
+
+Fixed:
+
+- **Final cuts**: an imported final cut keeps its full length, with its silences left in.
+- **Transcript**: refining no longer adds words that Whisper made up in a pause, such as a phrase repeated over and over. Choose **Transcript › Refine Transcript** again to clean an episode that has them. The page no longer has lines of explanation, and the Transcribe button names the language.
+- **Moments**: a moment's brackets can always be dragged, even after scrolling away and back. **New Moment** starts at the words on screen instead of jumping to the top, and selected words stand out from the moments' colours. The moment editor shows the face picture without a Faces switch.
+- **Faces and voices**: a voice that matches its face exactly half the time is now linked to it.
+
+What doesn't work yet is in Help › Known Issues.]]></description>
+      <description sparkle:format="markdown" xml:lang="es"><![CDATA[Novedades de esta versión:
+
+- **Preparar episodio**: cuando terminas de grabar o importas un montaje final, la app prepara el episodio sola. Lo transcribe, refina la transcripción, busca las voces y, si hay vídeo, las caras y los momentos. Una ventana muestra cada paso y puede seguir en segundo plano. **Preparar episodio**, en las páginas Transcripción y Momentos y en el menú Episodio, hace lo que falte o esté desfasado. **Ajustes › Procesamiento** elige qué pasos se hacen.
+- **Menú Episodio**: Reproducir, los cambios de cámara, el Modo Grabación, Terminar grabación y Preparar episodio están juntos en un nuevo menú Episodio. Formato va ahora después de Edición, y los elementos de los menús tienen iconos.
+- **Teléfonos**: se pueden renombrar en el Mac, con **Renombrar…** en **Programas › Cámaras**. Si dos teléfonos tienen el mismo nombre, el segundo lleva un número.
+- **Personas**: a una voz que no sale en cámara se le puede dar una cara desde su tarjeta en la ventana Personas.
+
+Arreglado:
+
+- **Montajes finales**: un montaje final importado conserva toda su duración, con sus silencios.
+- **Transcripción**: refinar ya no añade palabras que Whisper se inventó en una pausa, como una frase repetida una y otra vez. Elige de nuevo **Transcripción › Refinar transcripción** para limpiar un episodio que las tenga. La página ya no tiene líneas de explicación, y el botón Transcribir dice en qué idioma.
+- **Momentos**: los corchetes de un momento siempre se pueden arrastrar, también después de desplazarte y volver. **Nuevo momento** empieza en las palabras que se ven en vez de saltar al principio, y las palabras seleccionadas se distinguen de los colores de los momentos. El editor de momentos muestra la foto de la cara sin el interruptor Caras.
+- **Caras y voces**: una voz que coincide con su cara justo la mitad del tiempo ya queda unida a ella.
+
+Lo que todavía no funciona está en Ayuda › Problemas conocidos.]]></description>
+      <enclosure url="https://github.com/charlienovember/staticat-studio-beta/releases/download/0.9-beta5/StaticatStudioPro-0.9-beta5-unsigned.dmg" length="74748566" type="application/octet-stream" sparkle:edSignature="07031IQwFISFdd4FtRNk4gxLXZbCOubgWAYvZ9haEebNphjcbADg99trvT719YyEiKJI1ZzRzx0UoEJ60llqDg=="/>
+    </item>
   </channel>
 </rss>
