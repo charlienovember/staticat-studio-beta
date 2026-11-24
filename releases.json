@@ -1,5 +1,18 @@
 [
   {
+    "version": "0.9-beta6",
+    "build": "56",
+    "minimumSystemVersion": "26.0",
+    "date": "Tue, 24 Nov 2026 09:59:21 +0000",
+    "url": "https://github.com/charlienovember/staticat-studio-beta/releases/download/0.9-beta6/StaticatStudioPro-0.9-beta6-unsigned.dmg",
+    "length": 74737330,
+    "signature": "CuL9iohv5xWZAPM9GKjW/SWbFmZVG1ZSI6QZpzMiQWvtjeCheGNh6JQeTeHgZt5aG4S1GVB2grm8uVkDIvygBg==",
+    "notes": {
+      "en": "New in this build:\n\n- **New name in the logo**: the app is Staticat Studio Pro everywhere, and its logo now says so. The splash screen shows the new one-line logo, and the About window and the manual show a stacked version. On the phone, Staticat Studio Cam shows its new logo when it opens.\n\nWhat doesn't work yet is in Help › Known Issues.",
+      "es": "Novedades de esta versión:\n\n- **Nuevo nombre en el logotipo**: la app es Staticat Studio Pro en todas partes, y su logotipo ya lo dice. La pantalla de inicio muestra el nuevo logotipo en una línea, y la ventana Acerca de y el manual muestran una versión en dos líneas. En el teléfono, Staticat Studio Cam muestra su nuevo logotipo al abrirse.\n\nLo que todavía no funciona está en Ayuda › Problemas conocidos."
+    }
+  },
+  {
     "version": "0.9-beta5",
     "build": "55",
     "minimumSystemVersion": "26.0",

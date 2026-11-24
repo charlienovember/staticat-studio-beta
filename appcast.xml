@@ -5,6 +5,24 @@
     <link>https://charlienovember.github.io/staticat-studio-beta/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>0.9-beta6</title>
+      <pubDate>Tue, 24 Nov 2026 09:59:21 +0000</pubDate>
+      <sparkle:version>56</sparkle:version>
+      <sparkle:shortVersionString>0.9-beta6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown" xml:lang="en"><![CDATA[New in this build:
+
+- **New name in the logo**: the app is Staticat Studio Pro everywhere, and its logo now says so. The splash screen shows the new one-line logo, and the About window and the manual show a stacked version. On the phone, Staticat Studio Cam shows its new logo when it opens.
+
+What doesn't work yet is in Help › Known Issues.]]></description>
+      <description sparkle:format="markdown" xml:lang="es"><![CDATA[Novedades de esta versión:
+
+- **Nuevo nombre en el logotipo**: la app es Staticat Studio Pro en todas partes, y su logotipo ya lo dice. La pantalla de inicio muestra el nuevo logotipo en una línea, y la ventana Acerca de y el manual muestran una versión en dos líneas. En el teléfono, Staticat Studio Cam muestra su nuevo logotipo al abrirse.
+
+Lo que todavía no funciona está en Ayuda › Problemas conocidos.]]></description>
+      <enclosure url="https://github.com/charlienovember/staticat-studio-beta/releases/download/0.9-beta6/StaticatStudioPro-0.9-beta6-unsigned.dmg" length="74737330" type="application/octet-stream" sparkle:edSignature="CuL9iohv5xWZAPM9GKjW/SWbFmZVG1ZSI6QZpzMiQWvtjeCheGNh6JQeTeHgZt5aG4S1GVB2grm8uVkDIvygBg=="/>
+    </item>
+    <item>
       <title>0.9-beta5</title>
       <pubDate>Mon, 23 Nov 2026 18:50:46 +0000</pubDate>
       <sparkle:version>55</sparkle:version>
