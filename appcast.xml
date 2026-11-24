@@ -5,6 +5,34 @@
     <link>https://charlienovember.github.io/staticat-studio-beta/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>0.9-beta7</title>
+      <pubDate>Tue, 24 Nov 2026 16:28:59 +0000</pubDate>
+      <sparkle:version>57</sparkle:version>
+      <sparkle:shortVersionString>0.9-beta7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown" xml:lang="en"><![CDATA[Fixed in this build:
+
+- **Exported moments keep the name you give them**: the name typed when exporting a moment is now the file's name. Before, the app rebuilt it from the show, the episode and the moment's title. The save panel also suggests the right kind of file: a sound file (.m4a) for a moment without video.
+- **The Star transition is a star**: the transition between a moment and its hook or end tag now draws a five-pointed star. Before, it looked like a flower.
+- **Long titles end better**: when a title has to be cut short on a cover or a title card, its last line keeps as many words as fit before the "…". It no longer ends in a line that is only "…".
+- **The word correction box fits the word**: when you correct a word in a transcript or in the moment editor, the box is as wide as the word, so short words don't make the line jump and long ones aren't cut off.
+- **See which words the captions emphasise**: with **Emphasise keywords** on in a caption style, the moment editor's transcript shows the emphasised words in bold, underlined in the emphasis colour, so you don't have to play the moment to find them.
+- **New Show in the Start window**: the Shows list in the Start window's sidebar ends with **New Show…**, which makes a show right there.
+
+What doesn't work yet is in Help › Known Issues.]]></description>
+      <description sparkle:format="markdown" xml:lang="es"><![CDATA[Arreglado en esta versión:
+
+- **Los momentos exportados conservan el nombre que les des**: el nombre que escribes al exportar un momento es ahora el nombre del archivo. Antes, la app lo rehacía con el programa, el episodio y el título del momento. El panel de guardar también propone el tipo de archivo correcto: un archivo de sonido (.m4a) para un momento sin vídeo.
+- **La transición Estrella es una estrella**: la transición entre un momento y su gancho o su cierre dibuja ahora una estrella de cinco puntas. Antes parecía una flor.
+- **Los títulos largos terminan mejor**: cuando hay que recortar un título en una portada o un rótulo, su última línea conserva todas las palabras que caben antes de los «…». Ya no termina en una línea que solo tiene «…».
+- **La casilla para corregir una palabra se ajusta a la palabra**: al corregir una palabra en una transcripción o en el editor de momentos, la casilla mide lo que la palabra, así que las palabras cortas no hacen saltar la línea y las largas no se cortan.
+- **Mira qué palabras resaltan los subtítulos**: con **Resaltar palabras clave** activado en un estilo de subtítulos, la transcripción del editor de momentos muestra las palabras resaltadas en negrita, subrayadas en el color de resalte, para que no tengas que reproducir el momento para encontrarlas.
+- **Nuevo programa en la ventana de inicio**: la lista de programas de la barra lateral de la ventana de inicio termina en **Nuevo programa…**, que crea un programa ahí mismo.
+
+Lo que todavía no funciona está en Ayuda › Problemas conocidos.]]></description>
+      <enclosure url="https://github.com/charlienovember/staticat-studio-beta/releases/download/0.9-beta7/StaticatStudioPro-0.9-beta7-unsigned.dmg" length="74758311" type="application/octet-stream" sparkle:edSignature="1bNZg0oDxHtMWyZ8XCKci9XjF9/rSf2CmDXi8B249EIsouZ2/Bj3Y9vQq2Hnh/7skolGXAeDmDwUxFhWA99hCg=="/>
+    </item>
+    <item>
       <title>0.9-beta6</title>
       <pubDate>Tue, 24 Nov 2026 09:59:21 +0000</pubDate>
       <sparkle:version>56</sparkle:version>
