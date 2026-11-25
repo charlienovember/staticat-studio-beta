@@ -5,6 +5,36 @@
     <link>https://charlienovember.github.io/staticat-studio-beta/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>0.9-beta8</title>
+      <pubDate>Wed, 25 Nov 2026 13:54:36 +0000</pubDate>
+      <sparkle:version>58</sparkle:version>
+      <sparkle:shortVersionString>0.9-beta8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown" xml:lang="en"><![CDATA[New in this build:
+
+- **Beta builds expire**: each beta now stops making new episodes and recordings 60 days after it was built, so nobody stays on an old build by mistake. From two weeks before, the Start window says when, with **Check for Updates…** beside it. Your episodes always open, edit and export, and a recording already under way is never cut off.
+- **The beta terms in the app**: the first time you open a beta build it shows the beta terms and what leaves your Mac. Choose **Agree** to carry on.
+- **Private beta under the logo**: the splash and the About window say **Private beta**, so a beta build can't be mistaken for a release.
+
+Fixed in this build:
+
+- **New Moment always makes a moment**: near the end of an episode, or just before a long pause, **New Moment** could select less than the 15 seconds a moment needs, and then did nothing. It now always selects enough words, unless the whole transcript is shorter than that.
+
+What doesn't work yet is in Help › Known Issues.]]></description>
+      <description sparkle:format="markdown" xml:lang="es"><![CDATA[Novedades de esta versión:
+
+- **Las versiones beta caducan**: cada beta deja de crear episodios y grabaciones nuevos 60 días después de crearse, para que nadie se quede sin querer en una versión antigua. Desde dos semanas antes, la ventana de inicio dice cuándo, con **Buscar actualizaciones…** al lado. Tus episodios se siguen abriendo, editando y exportando, y una grabación en curso nunca se corta.
+- **Las condiciones de la beta en la app**: la primera vez que abres una versión beta, muestra las condiciones de la beta y lo que sale de tu Mac. Elige **Aceptar** para seguir.
+- **Beta privada bajo el logo**: la pantalla de bienvenida y la ventana Acerca de dicen **Beta privada**, para que una versión beta no se confunda con una definitiva.
+
+Arreglado en esta versión:
+
+- **Nuevo momento siempre crea un momento**: cerca del final de un episodio, o justo antes de una pausa larga, **Nuevo momento** podía seleccionar menos de los 15 segundos que necesita un momento, y entonces no hacía nada. Ahora siempre selecciona palabras suficientes, salvo que toda la transcripción sea más corta.
+
+Lo que todavía no funciona está en Ayuda › Problemas conocidos.]]></description>
+      <enclosure url="https://github.com/charlienovember/staticat-studio-beta/releases/download/0.9-beta8/StaticatStudioPro-0.9-beta8-unsigned.dmg" length="75124532" type="application/octet-stream" sparkle:edSignature="lF0OSKVt4kXz4K7gatOew5Zh52SKzfG/0SD/zcUNs1Ld/9sWAtbz0pzFsNNkD3lKHtRsdxX6DbvQJdbtkMUVBg=="/>
+    </item>
+    <item>
       <title>0.9-beta7</title>
       <pubDate>Tue, 24 Nov 2026 16:28:59 +0000</pubDate>
       <sparkle:version>57</sparkle:version>
