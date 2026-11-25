@@ -5,6 +5,24 @@
     <link>https://charlienovember.github.io/staticat-studio-beta/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>0.9-beta9</title>
+      <pubDate>Wed, 25 Nov 2026 14:13:44 +0000</pubDate>
+      <sparkle:version>59</sparkle:version>
+      <sparkle:shortVersionString>0.9-beta9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown" xml:lang="en"><![CDATA[Fixed in this build:
+
+- **The update offer is no longer hidden at launch**: when the app found a new build as it opened, the offer could end up behind the splash and the Start window. It now comes up in front of the Start window once the app has opened.
+
+What doesn't work yet is in Help › Known Issues.]]></description>
+      <description sparkle:format="markdown" xml:lang="es"><![CDATA[Arreglado en esta versión:
+
+- **El aviso de actualización ya no queda oculto al abrir la app**: cuando la app encontraba una versión nueva al abrirse, el aviso podía quedar detrás de la pantalla de bienvenida y de la ventana de inicio. Ahora aparece delante de la ventana de inicio cuando la app ya se ha abierto.
+
+Lo que todavía no funciona está en Ayuda › Problemas conocidos.]]></description>
+      <enclosure url="https://github.com/charlienovember/staticat-studio-beta/releases/download/0.9-beta9/StaticatStudioPro-0.9-beta9-unsigned.dmg" length="75124006" type="application/octet-stream" sparkle:edSignature="e22qS0cnc4dGX6ucZqOc4RGxVxiTxKRcMo0TLvcRBrjvHrTKDaT8utvJhvQraRI9JwXpbRrARM8tHC+yThyIBA=="/>
+    </item>
+    <item>
       <title>0.9-beta8</title>
       <pubDate>Wed, 25 Nov 2026 13:54:36 +0000</pubDate>
       <sparkle:version>58</sparkle:version>
