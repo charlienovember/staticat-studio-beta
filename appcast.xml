@@ -2,8 +2,38 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Staticat Studio Pro</title>
-    <link>https://charlienovember.github.io/staticat-studio-beta/appcast.xml</link>
+    <link>https://staticat.fm/beta/appcast.xml</link>
     <language>en</language>
+    <item>
+      <title>0.9.1</title>
+      <pubDate>Thu, 26 Nov 2026 11:10:40 +0000</pubDate>
+      <sparkle:version>62</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown" xml:lang="en"><![CDATA[New in this build:
+
+- **Checked by Apple**: Staticat Studio Pro is now signed by us and notarized by Apple, so a new copy opens like any other app you download, without allowing it in System Settings first. It opens even when your Mac is offline.
+- **A smaller app**: the app takes about a quarter less space than before.
+- **Updates come from staticat.fm**: from this build on, the app looks for new builds on our own site, and the download page is at staticat.fm/beta.
+
+Fixed in this build:
+
+- **An episode renamed by a change of case is listed once**: renaming an episode only in upper or lower case (say, "interview" to "Interview") no longer shows it twice on the Start window.
+
+What doesn't work yet is in Help › Known Issues.]]></description>
+      <description sparkle:format="markdown" xml:lang="es"><![CDATA[Novedades de esta versión:
+
+- **Revisada por Apple**: Staticat Studio Pro va ahora firmada por nosotros y notarizada por Apple, así que una copia nueva se abre como cualquier otra aplicación descargada, sin tener que permitirla antes en Ajustes del Sistema. Se abre aunque tu Mac no tenga conexión.
+- **Una aplicación más pequeña**: la aplicación ocupa más o menos una cuarta parte menos que antes.
+- **Las actualizaciones llegan desde staticat.fm**: a partir de esta versión, la aplicación busca versiones nuevas en nuestra propia web, y la página de descarga está en staticat.fm/beta.
+
+Arreglado en esta versión:
+
+- **Un episodio renombrado cambiando solo mayúsculas aparece una vez**: si cambias el nombre de un episodio solo en mayúsculas o minúsculas (por ejemplo, de «entrevista» a «Entrevista»), ya no aparece dos veces en la ventana de inicio.
+
+Lo que todavía no funciona está en Ayuda › Problemas conocidos.]]></description>
+      <enclosure url="https://staticat.fm/beta/builds/StaticatStudioPro-0.9.1.dmg" length="67320486" type="application/octet-stream" sparkle:edSignature="dNbOmaQdqeVkgsUQNPChMAOQVlLAMd/hidV37b8p8onXIewpKx2Q7/L+dIYsJguU2nVjMHQEuFz6u/2V+uJWAA=="/>
+    </item>
     <item>
       <title>0.9</title>
       <pubDate>Thu, 26 Nov 2026 08:54:09 +0000</pubDate>

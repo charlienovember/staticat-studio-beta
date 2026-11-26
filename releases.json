@@ -1,5 +1,18 @@
 [
   {
+    "version": "0.9.1",
+    "build": "62",
+    "minimumSystemVersion": "26.0",
+    "date": "Thu, 26 Nov 2026 11:10:40 +0000",
+    "url": "https://staticat.fm/beta/builds/StaticatStudioPro-0.9.1.dmg",
+    "length": 67320486,
+    "signature": "dNbOmaQdqeVkgsUQNPChMAOQVlLAMd/hidV37b8p8onXIewpKx2Q7/L+dIYsJguU2nVjMHQEuFz6u/2V+uJWAA==",
+    "notes": {
+      "en": "New in this build:\n\n- **Checked by Apple**: Staticat Studio Pro is now signed by us and notarized by Apple, so a new copy opens like any other app you download, without allowing it in System Settings first. It opens even when your Mac is offline.\n- **A smaller app**: the app takes about a quarter less space than before.\n- **Updates come from staticat.fm**: from this build on, the app looks for new builds on our own site, and the download page is at staticat.fm/beta.\n\nFixed in this build:\n\n- **An episode renamed by a change of case is listed once**: renaming an episode only in upper or lower case (say, \"interview\" to \"Interview\") no longer shows it twice on the Start window.\n\nWhat doesn't work yet is in Help › Known Issues.",
+      "es": "Novedades de esta versión:\n\n- **Revisada por Apple**: Staticat Studio Pro va ahora firmada por nosotros y notarizada por Apple, así que una copia nueva se abre como cualquier otra aplicación descargada, sin tener que permitirla antes en Ajustes del Sistema. Se abre aunque tu Mac no tenga conexión.\n- **Una aplicación más pequeña**: la aplicación ocupa más o menos una cuarta parte menos que antes.\n- **Las actualizaciones llegan desde staticat.fm**: a partir de esta versión, la aplicación busca versiones nuevas en nuestra propia web, y la página de descarga está en staticat.fm/beta.\n\nArreglado en esta versión:\n\n- **Un episodio renombrado cambiando solo mayúsculas aparece una vez**: si cambias el nombre de un episodio solo en mayúsculas o minúsculas (por ejemplo, de «entrevista» a «Entrevista»), ya no aparece dos veces en la ventana de inicio.\n\nLo que todavía no funciona está en Ayuda › Problemas conocidos."
+    }
+  },
+  {
     "version": "0.9",
     "build": "60",
     "minimumSystemVersion": "26.0",
