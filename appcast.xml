@@ -5,6 +5,50 @@
     <link>https://staticat.fm/beta/appcast.xml</link>
     <language>en</language>
     <item>
+      <title>0.9.2</title>
+      <pubDate>Sat, 28 Nov 2026 06:34:27 +0000</pubDate>
+      <sparkle:version>67</sparkle:version>
+      <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown" xml:lang="en"><![CDATA[New in this build:
+
+- **Sound effects can be edited on the timeline**: on the Edit screen, drag a sound effect to move it, or drag either end to shorten it or lengthen it again. Delete removes the selected one, and **Add Sound Effect at the Playhead** adds one of the show's pads you forgot to press.
+- **A clip's trim can be stepped and typed**: the clip's inspector has **Trim start** and **Trim end**, each with its time, which you can type, and a stepper that moves it 10 ms a click (100 ms with Shift). **Use Automatic Trim** goes back to the automatic one.
+
+Fixed in this build:
+
+- **The picture stays in sync through long clips**: in a video episode, a phone's picture could slide behind the sound over a long clip, by half a second or more after 40 minutes, and jump back at the next clip. It now stays with the sound to the clip's last frame. Export an episode again to get a video with the fix.
+- **The automatic trim leaves room around the speech**: a new clip now keeps 150 ms before its first word and 300 ms after its last, so cuts no longer sound abrupt or lose a breath. Clips you already have play as before.
+- **Find faces gets through a long video**: Prepare Episode no longer fails at Find faces on a video of two or three hours, and if the faces do fail, the moments are still found.
+- **Adding an overlay opens the file picker again**: choosing **Add Audio File…** from **+ Overlay** could do nothing after a while.
+- **The timeline shows a title that ends after the sound**: a title added at the end of a video episode can be reached, moved and played on the Edit screen.
+- **Cameras stop with their take**: if you switch an episode to Audio Only (or undo the change that made it a video episode) while a take is running, the phones and cameras that started with the take now stop with it, and their video is kept.
+- **A phone's late video is kept**: video from a phone that started late, or reconnected after it was lost, now always reaches its take, even when the take is still closing. If the take is gone by then, the app says so and the video stays on the phone.
+- **Recording Mode's banners no longer cover the keys**: warnings and the Discard banner now push the panels down, so the clock, Pause and Stop stay in sight and work. The Undo banner is gone; press ⌘Z, or a MIDI control set to **Undo Done or Skip**, to take back a Done or Skip.
+- **Stepping a trim no longer keeps the Mac busy**: the clip's audio is analysed once, when you stop, instead of after every step.
+
+What doesn't work yet is in Help › Known Issues.]]></description>
+      <description sparkle:format="markdown" xml:lang="es"><![CDATA[Novedades de esta versión:
+
+- **Los efectos de sonido se editan en la línea de tiempo**: en la pantalla Editar, arrastra un efecto de sonido para moverlo, o cualquiera de sus extremos para acortarlo o volver a alargarlo. Suprimir elimina el seleccionado, y **Añadir efecto de sonido en el cursor de reproducción** añade uno de los pads del programa que se te olvidó pulsar.
+- **El recorte de un clip se ajusta paso a paso o escribiendo**: el inspector del clip tiene **Inicio del recorte** y **Final del recorte**, cada uno con su tiempo, que puedes escribir, y un control que lo mueve 10 ms por clic (100 ms con Mayúsculas). **Usar recorte automático** vuelve al automático.
+
+Arreglado en esta versión:
+
+- **La imagen sigue sincronizada en los clips largos**: en un episodio de vídeo, la imagen de un teléfono podía ir quedándose atrás respecto al sonido en un clip largo, medio segundo o más tras 40 minutos, y volver a su sitio de golpe en el clip siguiente. Ahora va con el sonido hasta el último fotograma del clip. Exporta el episodio otra vez para tener un vídeo con el arreglo.
+- **El recorte automático deja aire alrededor de la voz**: un clip nuevo conserva ahora 150 ms antes de su primera palabra y 300 ms después de la última, así que los cortes ya no suenan bruscos ni se pierde una respiración. Los clips que ya tienes suenan como antes.
+- **Buscar caras termina en un vídeo largo**: Preparar episodio ya no falla en Buscar caras con un vídeo de dos o tres horas y, si las caras fallan, los momentos se buscan igualmente.
+- **Añadir un pisado vuelve a abrir el selector de archivos**: al elegir **Añadir archivo de audio…** en **+ Pisado** podía no pasar nada al cabo de un rato.
+- **La línea de tiempo muestra un título que acaba después del sonido**: un título añadido al final de un episodio de vídeo se puede alcanzar, mover y reproducir en la pantalla Editar.
+- **Las cámaras se detienen con su toma**: si pasas un episodio a Solo audio (o deshaces el cambio que lo hizo de vídeo) durante una toma, los teléfonos y las cámaras que empezaron con ella se detienen con ella, y su vídeo se guarda.
+- **El vídeo que llega tarde de un teléfono se guarda**: el vídeo de un teléfono que empezó tarde, o que volvió después de perderse, llega siempre a su toma, aunque la toma aún se esté cerrando. Si la toma ya no está, la app lo dice y el vídeo sigue en el teléfono.
+- **Los avisos del Modo Grabación ya no tapan las teclas**: los avisos y el de Descartar bajan los paneles, así que el reloj, Pausa y Detener se siguen viendo y funcionan. El aviso de Deshacer ya no está; pulsa ⌘Z, o un control MIDI asignado a **Deshacer hecho u omitir**, para anular un Hecho o un Saltar.
+- **Ajustar un recorte paso a paso ya no deja el Mac ocupado**: el audio del clip se analiza una vez, cuando paras, en lugar de después de cada paso.
+
+Lo que todavía no funciona está en Ayuda › Problemas conocidos.]]></description>
+      <enclosure url="https://staticat.fm/beta/builds/StaticatStudioPro-0.9.2.dmg" length="67461385" type="application/octet-stream" sparkle:edSignature="2bw7dABe+wGw/qMKWLGZMB2sch4iouoD8nGfcGeIBvdszjCJZDcrGKG0XktZaQoT0gtjnG5u7g3ULqcwdoekBg=="/>
+    </item>
+    <item>
       <title>0.9.2-rc1</title>
       <pubDate>Thu, 26 Nov 2026 15:21:49 +0000</pubDate>
       <sparkle:version>63</sparkle:version>
